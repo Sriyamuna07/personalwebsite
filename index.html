@@ -3,63 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>my webpage</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #FFFFFF;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #747CB7;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        .profile {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .profile img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 3px solid #747CB7;
+        }
+
+        .profile h1 {
+            font-size: 2em;
+            color: #747CB7;
+        }
+
+        .profile p {
+            font-size: 1.2em;
+            color: #777;
+        }
+
+        .resume {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .resume a {
+            background-color: #72B9F2;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .resume a:hover {
+            background-color: #72B9F2;
+        }
+
+        footer {
+            background-color: #747CB7;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
 </head>
 <body>
-    <center>
     <header>
-        <h1>Welcome to My page</h1>
-        <p>This is Sriyamuna V S</p>
-        </header>
-        <hr>
-    <section>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, soluta rem possimus labore omnis quis sit obcaecati perferendis est aspernatur. Autem illum nihil eveniet laborum quam aperiam placeat sint doloribus omnis esse illo rerum neque minus blanditiis iusto, magnam repudiandae odio, officiis quos. Nobis deleniti iure saepe, eaque nulla voluptatem?</p>
-        <img src="image/image 1.png" alt="" height="250px" width="250px">
-    </section>
-    <hr>
-    <section>
-        <h2>Contact details</h2>
-        <p>Lets connect..!</p>
-        <a href="">send me an</a>
-        <a href="">linkedin</a>
-    </section>
-    <hr>
-    <section>
-        <h3>My skills</h3>
-        <UL>
-            <li>Communication Skill</li>
-            <li>Time Management</li>
-            <li>Coding Knowledge</li>
-        </UL>
-    </section>
-    <hr>
-    <section>
-        <h4>Portfolio</h4>
-        <p>Take a look at some of my words</p>
-        <a href="">Project 1</a>
-        <a href="">Project 2</a>
-    </section>
-    <hr>
-    <section>
-        <h5>Contact Me</h5>
-        <form action="">
-            <label for="">Name : </label>
-            <input type="text" name="Name" id="Name" class="Send"> 
-            <br><br>
-            <label for="">Email : </label>
-            <input type="text" name="Email" class="Email">
-            <br><br>
-            <label for="">Message : </label>
-            <textarea name="Message" id="Message"></textarea>
-            <br><br>
-            <button>Send</button>
-            <br><br>
-        </form>
-    </section>
-    <footer>
-&copy; Sriyamuna V S,Built by SREE club        
+        <div class="container">
+            <h1>Welcome to My Portfolio</h1>
+        </div>
+    </header>
 
+    <div class="container">
+        <section class="profile">
+            <img src="sriyamuna.jpg" alt="Profile Picture">
+            <h1>V.S.Sriyamuna</h1>
+            <h2>Email | yamunavasanthi368@gmail.com</h2>
+
+            <p>Web Developer | Designer | Content Creator</p>
+        </section>
+
+        <section class="resume">
+            <h2>If you'd like to know more about my skills and experience, feel free to download my resume below.</h2>
+            <a href="V.S.Sriyamuna.docx" download>Download Resume</a>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 V.S.Sriyamuna. All Rights Reserved.</p>
     </footer>
-</center>   
 </body>
 </html>
+
